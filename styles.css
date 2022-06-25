@@ -1,1 +1,55 @@
-/* your code */
+
+.grid-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+/* .main_table{
+    display: flex;
+    flex-direction: row;
+} */
+.nestedtable1{
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+
+}
+.nested_table2{
+    width: 100%;
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+}
+
+.nestedtable3{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.nestedtable4{
+    width: 100%;
+    text-align: center;
+}
+.nestedtable4 tr td{
+    background-color: black;
+    color: white;
+}
